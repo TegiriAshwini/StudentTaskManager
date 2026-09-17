@@ -8,11 +8,15 @@ public class Main {
 
         System.out.println("===== Student Task Manager =====");
 
-        System.out.print("Enter a task: ");
-        String task = sc.nextLine();
+        System.out.print("Enter task 1: ");
+        String task1 = sc.nextLine();
 
-        System.out.println("Task added successfully!");
-        System.out.println("Task: " + task);
+        System.out.print("Enter task 2: ");
+        String task2 = sc.nextLine();
+
+        System.out.println("\n===== Task List =====");
+        System.out.println("1. " + task1);
+        System.out.println("2. " + task2);
 
         sc.close();
     }
